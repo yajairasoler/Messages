@@ -6,11 +6,9 @@ public class Message {
 	private String message;
 
 	public Message() {
-
 	}
 
 	public Message(MessageType type, String message) {
-
 		this.type = type;
 		this.message = message;
 	}

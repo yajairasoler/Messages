@@ -10,12 +10,8 @@ public class ApplicationConfig {
 
 	@Named
 	static class JerseyConfig extends ResourceConfig {
-
 		public JerseyConfig() {
-
 			this.packages("ysm.ms.app.rest");
 		}
-
 	}
-
 }

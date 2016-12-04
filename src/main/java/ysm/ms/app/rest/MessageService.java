@@ -15,7 +15,6 @@ import javax.ws.rs.core.MediaType;
 public class MessageService {
 
 	private List<Message> messageList = new ArrayList<Message>();
-
 	public MessageService() {
 	}
 
@@ -29,7 +28,6 @@ public class MessageService {
 		MessageType t = MessageType.valueOf(type);
 		Message mes = new Message(t, message);
 		return mes;
-
 	}
 
 }
